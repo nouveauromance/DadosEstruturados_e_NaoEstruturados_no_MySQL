@@ -1,0 +1,22 @@
+Dê um exemplo de JSON, utilizando arrays.
+
+-----------------------------------------------------------------
+
+{
+  "nome": "João",
+  "idade": 30,
+  "enderecos": [
+    {
+      "rua": "Rua Carlos Facchina",
+      "numero": 100,
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "rua": "Rua Primeiro de Março",
+      "numero": 200,
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    }
+  ]
+}

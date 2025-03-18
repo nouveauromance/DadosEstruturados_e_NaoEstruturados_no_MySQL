@@ -1,0 +1,20 @@
+Criar um JSON para representar uma entidade que representa
+uma Conta Corrente em um sistema bancário. A conta corrente deve
+ter os seguintes atributos:
+• Nome do Correntista
+• Sexo
+• Idade
+• Numero da Conta
+• Flag indicando se é conta conjunta
+• Saldo
+
+-----------------------------------------------------------------
+
+{
+   "Nome_Correntista": "Paula Soares",
+   "Sexo": "F",
+   "Idade": 26,
+   "Numero_Conta": "738921075",
+   "Conta_Conjunta": false,
+   "Saldo": 4500.00
+}

@@ -1,0 +1,53 @@
+Criar JSON para seguinte classe abaixo:
+OBJETO FUNCIONARIO:
+
+public class funcionario
+ {
+    public string Cpf {get;set;}
+    public string Primeiro_Nome {get;set;}
+    public string Nome_Meio {get;set;}
+    public string Ultimo_Nome {get;set;}
+    public DateTime Data_Nascimento {get;set;}
+    public string Endereco {get;set;}
+    public Double Salario {get;set;}
+    public string Sexo {get;set;}
+    public string Cpf_Supervisor {get;set;}
+    public string Numero_Departamento {get;set;}
+    public List<dependente> Dependentes {get;set;}
+ }
+public class dependente
+{
+    public string Nome_Dependente {get;set;}
+    public string Sexo {get;set;}
+    public DateTime Data_Nascimento {get;set;}
+    public string Parentesco {get;set;}
+}
+
+-----------------------------------------------------------------
+
+{
+  "Cpf": "172.992.081-00",
+  "Primeiro_Nome": "Daniel",
+  "Nome_Meio": "Carlos",
+  "Ultimo_Nome": "Silva",
+  "Data_Nascimento": "2000-03-13T00:00:00",
+  "Endereco": "Rua Carlos Facchina, 100, São Paulo, SP",
+  "Salario": 5000.00,
+  "Sexo": "M",
+  "Cpf_Supervisor": "978.638.829-09",
+  "Numero_Departamento": "42",
+  "Dependentes": [
+      {
+         "Nome_Dependente": "Carolina Silva",
+         "Sexo": "F",
+         "Data_Nascimento": "2014-07-22T13:40:09",
+         "Parentesco": "Filha"
+       },
+      {
+         "Nome_Dependente": "Paulo Silva",
+         "Sexo": "M",
+         "Data_Nascimento": "2015-08-03T09:21:37",
+         "Parentesco": "Filho"
+       },
+    ]
+}

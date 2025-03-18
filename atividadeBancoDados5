@@ -1,0 +1,17 @@
+Criar JSON para seguinte classe abaixo:
+Aluno
+- nome: String
+- matricula: String
+- nota1: double
+- nota2: double
+- notaReavaliacao: double
+
+-----------------------------------------------------------------
+
+{
+   "Nome": "Mariana Silva",
+   "Matricula": "7289190465",
+   "Nota1": 9.3,
+   "Nota2": 5.6,
+   "Nota_Reavaliacao": 8.9
+}

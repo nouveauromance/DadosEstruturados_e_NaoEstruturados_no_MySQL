@@ -1,0 +1,9 @@
+Como criar um tabela no MySQL, utilizando JSON?
+
+-----------------------------------------------------------------
+
+CREATE TABLE clientes (
+   id INT AUTO_INCREMENT PRIMARY KEY, 
+   nome VARCHAR(255),
+   dados_cliente JSON
+);
